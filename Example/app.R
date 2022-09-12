@@ -44,8 +44,10 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
 
+    # Render the Reactable table
     output$tablePlot <- renderReactable({
-        # generate bins based on input$bins from ui.R
+
+        # Get example data from Stackoverflow question
         output_data <- as_tibble(mtcars[1:6, ], rownames = "car") %>%
           select(car:hp)
       
