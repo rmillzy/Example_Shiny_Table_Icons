@@ -1,4 +1,4 @@
-# Example_Shiny_Table_Icons
+# Example Shiny Table Icons
 
 ## Introduction
 This is an example of how to combine a [Reactable](https://glin.github.io/reactable/) table, [Tippy](https://tippy.john-coene.com/) tooltips, and [Font Awesome](https://fontawesome.com/) icons together. The motivation for this reproducible example is to show help icons after tooltips in the column headers for a Shiny Reactable table. This example Github repository was motivated by my colleagues question on [StackOverflow](https://stackoverflow.com/questions/73657375/how-to-add-an-icon-in-front-of-specific-column-name-of-reactable).
